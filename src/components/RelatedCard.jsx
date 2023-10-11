@@ -67,13 +67,13 @@ const RelatedCard = ({
           onClick={() => handleChannelClick(channelId)}
           className="flex gap-2 items-center -mt-2 text-xs"
         >
-          {/* {channelThumbnail && (
+          {channelThumbnail && (
                 <img
                   className="w-5 rounded-md"
                   src={channelThumbnail[0].url}
                   alt=""
                 />
-              )} */}
+              )}
           <h2 className="text-gray-300 text-xs hover:text-gray-500 ">
             {channelTitle}
           </h2>

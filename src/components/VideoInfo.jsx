@@ -91,7 +91,7 @@ const VideoInfo = ({
       </motion.div>
     );
   } else {
-    return <div>d</div>;
+    return <div></div>;
   }
 };
 

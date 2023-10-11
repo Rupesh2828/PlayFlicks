@@ -134,7 +134,7 @@ const VideoDetails = () => {
       </div>
     );
   } else {
-    return <div>kuch nahi hai yha</div>;
+    return <div>There is nothing here.</div>;
   }
 };
 

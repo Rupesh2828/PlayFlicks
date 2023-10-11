@@ -20,7 +20,7 @@ const SearchBar = () => {
     });
   }, [searchTerm]);
 
-  console.log(suggestions);
+  // console.log(suggestions);
 
   const handleSubmit = (e) => {
     e.preventDefault();

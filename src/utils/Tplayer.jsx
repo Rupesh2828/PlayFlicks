@@ -1,7 +1,7 @@
 // component\player.jsx
 
 import { useRef, useEffect } from "react";
-import { tplayer, destroyPlayer } from "tplayer.js";
+import { tplayer, destroyPlayer } from "/tplayer.js";
 
 export default function Player({ config }) {
   const videoRef = useRef();

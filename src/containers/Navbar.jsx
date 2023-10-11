@@ -47,8 +47,8 @@ const Navbar = () => {
               <title>Norco</title>
               <path d="M11.055 2.707a.971.971 0 00-.688.387L0 16.78h4.049l7.27-9.597 1.927 5.74 1.42-1.875-2.578-7.676a.983.983 0 00-1.033-.666zM19.95 7.22l-7.27 9.597-1.927-5.74-1.42 1.875 2.578 7.676a.987.987 0 001.72.28L24 7.218z" />
             </svg>
-            <h1 className="ml-2 font-semibold text-xl text-slate-200">
-              Next<span className=" text-red-500">Tube</span>{" "}
+            <h1 className="ml-2 font-semibold text-xl ">
+              Next<span className=" text-blue-500">Tube</span>{" "}
             </h1>
           </Link>
         </div>
@@ -108,8 +108,8 @@ const Navbar = () => {
             height="15"
           >
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M8 3h7v7h-1V4.707l-6 6-3-3-4.146 4.147-.708-.708L5 6.293l3 3L13.293 4H8V3z"
               fill="currentColor"
             ></path>
@@ -119,10 +119,10 @@ const Navbar = () => {
             <div className="rounded-full bg-gray-200  flex items-center justify-center  aspect-square h-7 w-7 hover:opacity-60 duration-300 text-white">
               <a
                 className="font-semibold  text-gray-900 text-xs"
-                href="http://github.com/nainish-rai"
+                href="https://github.com/Rupesh2828"
                 target="_blank"
               >
-                NR
+                RJ
               </a>
             </div>
           </div>

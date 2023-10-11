@@ -15,7 +15,7 @@ const Feed = () => {
   //  api(`trending?maxResults=10`).then((response)=>setData(response))
   // },[])
   // console.log(data)
-  console.log(location.pathname + "lcoation")
+  // console.log(location.pathname + "lcoation")
   const { data, isLoading, isError } = useApi("trending?maxResults=10");
   if (isError) return "An error has occurred.";
   if (isLoading)
